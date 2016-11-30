@@ -1,0 +1,26 @@
+{
+  "author": "Elias Winberg <elias-winberg@outlook.com>",
+  "description": "Checks whether a function is an arrow function or not.",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "arrow function",
+    "fat arrow",
+    "function"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "is-arrow-function",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elias-winberg/is-arrow-function.git"
+  },
+  "scripts": {
+    "test": "jasmine spec/*"
+  },
+  "version": "1.0.0"
+}
